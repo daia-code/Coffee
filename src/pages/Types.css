@@ -1,0 +1,16 @@
+/* Your existing styles */
+.positionCoffee {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Responsive styles for screens up to 768px wide */
+  @media (max-width: 768px) {
+    .positionCoffee {
+      flex-direction: column; /* Stack items vertically */
+    }
+  }
+  
+  /* Add more media queries and adjust styles for larger screens if needed */
+  

@@ -1,0 +1,95 @@
+/* Your existing styles */
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f9f9f9;
+}
+
+.contact-form {
+  width: 390px;
+  padding: 100px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 16px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007BFF;
+  background: #fff;
+  color: #333;
+}
+
+.submit-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles for screens up to 768px wide */
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 2rem; /* Reduce container padding */
+    min-height: auto; /* Remove minimum height */
+  }
+
+  .contact-form {
+    width: 100%; /* Make the form full width */
+    padding: 2rem; /* Adjust form padding */
+  }
+
+  .contact-form h2 {
+    font-size: 1.5rem; /* Adjust the heading font size */
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+  .form-group,
+  label,
+  input,
+  textarea {
+    margin-bottom: 10px;
+  }
+
+  .submit-button {
+    padding: 10px;
+  }
+}
+
+/* Add more media queries and adjust styles for larger screens if needed */

@@ -1,0 +1,53 @@
+/* Coffee.css */
+.Content {
+  text-align: center;
+  padding: 20px;
+}
+
+.coffee-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.coffee-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.coffeeText {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.coffeeInfo {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Responsive styles for screens up to 768px wide */
+@media (max-width: 768px) {
+  .coffee-card {
+    max-width: 90%;
+  }
+}
+
+/* Responsive styles for screens up to 576px wide (small mobile devices) */
+@media (max-width: 576px) {
+  .coffee-card {
+    padding: 10px;
+  }
+
+  .coffeeText {
+    font-size: 14px;
+  }
+}
+
+  
+  

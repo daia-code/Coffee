@@ -1,0 +1,46 @@
+/* Your existing styles */
+.home {
+  padding: 50px;
+}
+
+.headerContainer {
+  background-color: #f8f8f8;
+  border-left: 5px solid #000000;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.headerContainer h1 {
+  font-size: 24px;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.headerContainer p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive styles for screens up to 768px wide */
+@media (max-width: 768px) {
+  .home {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .headerContainer {
+    padding: 10px; /* Adjust padding */
+    margin: 10px 0; /* Adjust margin */
+  }
+
+  .headerContainer h1 {
+    font-size: 20px; /* Reduce font size for heading */
+  }
+
+  .headerContainer p {
+    font-size: 14px; /* Reduce font size for paragraph */
+  }
+}
+
+/* Add more media queries and adjust styles for larger screens if needed */

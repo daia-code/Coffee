@@ -1,0 +1,72 @@
+/* Navbar.css */
+
+/* Common styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; /* Adjust padding for small screens */
+  background-color: white;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+}
+
+.leftSide img {
+  width: 100px;
+  height: auto;
+  margin-right: 2rem; /* Adjust margin for small screens */
+}
+
+.rightSide {
+  display: flex;
+  gap: 1rem;
+}
+
+.rightSide a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.rightSide a:hover {
+  color: #ff6600;
+}
+
+/* Responsive styles for screens up to 768px wide */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .leftSide img {
+    width: 80px;
+    margin-right: 1rem;
+  }
+}
+
+/* Responsive styles for screens up to 576px wide (small mobile devices) */
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .leftSide img {
+    width: 60px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .rightSide {
+    margin-top: 1rem;
+  }
+
+  .rightSide a {
+    font-size: 0.9rem;
+  }
+}
